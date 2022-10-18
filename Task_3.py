@@ -18,5 +18,5 @@ def find_diff_max_min(myList):
 collection = check_for_input_error()
 floor_collection = []
 for i in collection:
-    floor_collection.append(int((i % 1) *100) / 100)
+    floor_collection.append(i % 1)
 print(f'Разница между максимальным и минимальным значениями дробной части элементов списка = {find_diff_max_min(floor_collection)}')
